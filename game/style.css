@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.head {
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play {
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 1200px;
+  bottom: 55px;
+}
+.rock {
+  background-image: url("/images/rock.png");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  background-position-x: center;
+  border-radius: 50%;
+  border: none;
+}
+.paper {
+  background-image: url("/images/paper.png");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  background-position-x: center;
+  border-radius: 50%;
+  border: none;
+}
+.scissors {
+  background-image: url("/images/scissors.png");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  background-position-x: center;
+  border-radius: 50%;
+  border: none;
+}
+.gamepanel {
+  margin-top: 50px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rock:active {
+  border: 10px solid black;
+}
+.paper:active {
+  border: 10px solid black;
+}
+.scissors:active {
+  border: 10px solid black;
+}
+.score {
+  margin-top: 100px;
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.res {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
