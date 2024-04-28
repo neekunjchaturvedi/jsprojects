@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: gold;
+  color: rgb(0, 0, 0);
+}
+.box {
+  height: 130px;
+  width: 130px;
+  background-color: lightblue;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  border-radius: 6px;
+  color: black;
+}
+
+.outbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.tictacbox {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon {
+  width: 50px;
+  font-size: 30px;
+  padding: 20px;
+}
+.mode {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-right: 20px;
+}
+.resetbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  font-size: 20px;
+  background-color: gold;
+  color: black;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.winner {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: black;
+}
