@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: "Montserrat";
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  background-color: lavender;
+  height: 60vh;
+  width: 40vw;
+  margin-top: 50px;
+  border-radius: 7px;
+}
+.head {
+  background-color: lavender;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  background-color: lavender;
+  padding: 20px;
+  margin-left: 60px auto;
+}
+.createbox {
+  background-color: lavender;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.iconbox {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: lavender;
+  margin-top: 18px;
+  font-size: 25px;
+  padding-right: 20px;
+}
+i {
+  background-color: lavender;
+}
+.place {
+  background-color: white;
+  border: none;
+  width: 20vw;
+  height: 6vh;
+  padding: 10px;
+  border-radius: 10px;
+}
+.list {
+  height: 250px;
+  background-color: lavender;
+  margin-left: 90px;
+}
+.task {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
